@@ -1,0 +1,35 @@
+{
+  "name": "shiny-types",
+  "version": "1.0.1",
+  "description": "Type interfaces distribution specification.",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "clean": "rimraf build",
+    "tsc": "tsc",
+    "build": "npm run clean && npm run tsc",
+    "lint": "eslint . --ext .js,.ts",
+    "bl": "npm run build && npm link",
+    "prepack": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/birajrai/shiny-types.git"
+  },
+  "author": "birajrai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/birajrai/shiny-types/issues"
+  },
+  "homepage": "https://github.com/birajrai/shiny-types#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.55.0",
+    "@typescript-eslint/parser": "^5.55.0",
+    "eslint": "^8.36.0",
+    "rimraf": "^4.4.0",
+    "typescript": "^5.0.2"
+  },
+  "files": [
+    "build"
+  ]
+}
