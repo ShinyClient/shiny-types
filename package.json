@@ -14,14 +14,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/birajrai/shiny-types.git"
+    "url": "git+https://github.com/ShinyClient/shiny-types.git"
   },
   "author": "birajrai",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/birajrai/shiny-types/issues"
+    "url": "https://github.com/ShinyClient/shiny-types/issues"
   },
-  "homepage": "https://github.com/birajrai/shiny-types#readme",
+  "homepage": "https://github.com/ShinyClient/shiny-types#readme",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.55.0",
     "@typescript-eslint/parser": "^5.55.0",
